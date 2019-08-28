@@ -136,7 +136,6 @@ nav {
     
 }
 
-#button-left{}
 #landing-a:link{
     color: #EE4540;
 }
@@ -157,6 +156,19 @@ nav {
     #typed {
         font-size: 7vw;
     }
+
+    #name-tag-wrapper{
+        height:80%;
+    }
+    #button-wrapper{
+        height:20%;
+    }
+
+    #button{
+        height: auto;
+        min-height: auto;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -164,6 +176,8 @@ nav {
     #typed {
         font-size: 5vw;
     }
+
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -178,6 +192,13 @@ nav {
     #typed {
         font-size: 3vw;
     }
+    #name-tag-wrapper{
+        height:80%;
+    }
+    #button-wrapper{
+        height:20%;
+    }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
