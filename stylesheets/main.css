@@ -46,20 +46,16 @@ nav {
 }
 
 #projects {
-    background: #8F2041;
+    background: #510A32;
 }
 
 #skills {
-    background: url(http://cloud.niklausgerber.com/1X180T1X2v3d/dark-orange.png) center center no-repeat scroll #263238;
+    background:#2D142C;
     ;
 }
 
 #contact {
-    background: #FF905E;
-}
-
-#five {
-    background: #FFDB77;
+    background: rgb(29, 7, 28);
 }
 
 #typed-wrapper {
@@ -83,7 +79,7 @@ nav {
 }
 
 #name-tag {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     height:50%;
@@ -139,8 +135,19 @@ nav {
     justify-content: center;
     
 }
-#bold {
-    /* font-family: 'pantonblack_caps'; */
+
+#button-left{}
+#landing-a:link{
+    color: #EE4540;
+}
+
+#landing-a:visited{
+    color: #EE4540;
+
+}
+
+#landing-a:hover{
+    color: rgb(250, 206, 206);
 
 }
 /* Responsive design stuff */
