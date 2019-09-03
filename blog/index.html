@@ -5,9 +5,8 @@ layout: main
 
 {% for post in paginator.posts %}
 <article class="post">
-  <!-- style="background-image: url({{prepend: site.baseurl | append : post.img}})" -->
   {% if post.img %}
-    <a class="post-thumbnail"  href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail"  href="{{ post.url | prepend: site.baseurl}}"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
