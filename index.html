@@ -9,88 +9,77 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/custom2.css">
 
     <title>Rohan Mallya!</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="content" id="landing">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" id="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link" href="#">Blog</a>
+                </li>
 
-        <div id="name-tag-wrapper">
 
-            <div id="name-tag">
-                <div id="name">
-                    <span id="bold">R</span>OHAN MALLYA
-                </div>
-
-            </div>
         </div>
+    </nav>
+    <div class="full-content" id="skills">
 
+        <div class="content-90 container">
+            <div class="row full-content align-items-center">
+                <div id="typed-name-text">
+                    <p>Hi, I am <span id="type-name">Rohan <strong>Mallya.</strong></span><br />
+                        <span id="typed-sub">This is a major WIP. But if you have something interesting we can work on,
+                            my contact details are below<br></span>
 
-        <div id="button-wrapper">
-            <div class="container" id="buttons">
-                <div class="row" id="buttons-row-container">
-                    <div id="button" class="col-sm"><a id="landing-a" href="#projects">Projects.</a></div>
-                    <div id="button" class="col-sm"><a id="landing-a" href="#skills">Skills.</a></div>
-                    <div id="button" class="col-sm"><a id="landing-a" href="/blog">Blog.</a></div>
+                    </p>
+
                 </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    </div>
-    <!-- <div class="content" id="projects">
-        <div class="container" style="height:100%;width:100%">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                </div>
-                <div class="ccol-12 col-md-6">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                </div>
-                <div class="col-12 col-md-6">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                </div>
-
+                <!-- <span id="typed-pre-name"></span> -->
+                <!-- <span id="i-am-a"></span> -->
+                <span id="typed-name"></span>
             </div>
 
         </div>
-    </div> -->
 
-    </div>
+        <div class="content-10" id="contact">
+            <div class="row align-items-center" id="buttons-row-container">
+                <div id="ctnt-button" class="col-sm"><i class="fa fa-phone" aria-hidden="true"></i>
 
-    <div class="content" id="skills">
-        <div id="name-tag-wrapper">
+                    +917892197734</div>
+                <div id="ctnt-button" class="col-sm"><i class="fa fa-envelope" aria-hidden="true"></i>
 
-            <div id="name-tag">
-                <div id="name">
-                    Work In Progress
-                </div>
+                    bangalorerohan@gmail.com</div>
+                <div id="ctnt-button" class="col-sm"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                     <a id="landing-a" href="https://www.about.me/rohanmallya">
 
-            </div>
-        </div>
-    </div>
-    <div class="small-content" id="contact">
-        <div class="container" id="buttons">
-            <div class="row" id="buttons-row-container">
-                <div id="button" class="col-sm">+917892197734</div>
-                <div id="button" class="col-sm">bangalorerohan@gmail.com</div>
-                <div id="button" class="col-sm"><a id="landing-a" href="https://www.about.me/rohanmallya">about.me</a>
+
+                        about.me</a>
                 </div>
             </div>
 
         </div>
+
     </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -100,6 +89,37 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <script>
+        var typed = new Typed('#typed-name', {
+            stringsElement: '#typed-name-text',
+            onComplete: function () {
+                document.querySelector('.typed-cursor').style.display = "none";
+                // callTyped();
+            }
+        });
+
+        function callTyped() {
+            var iAmA = document.createElement('span');
+            iAmA.setAttribute('id', 'i-am-a');
+            document.querySelector("#typed-pre-name").appendChild(iAmA);
+            var typed2 = new Typed("#i-am-a", {
+                strings: ['think', 'read', 'design',
+                    ' code', 'implement'
+                ],
+                smartBackspace: true,
+                loop: true,
+                typeSpeeed: 0,
+                backSpeed: 0
+            })
+        }
+
+        // var typed = new Typed('#typed-name', {
+        //     stringsElement: '#typed-name-text'
+        // });
+    </script>
+
 </body>
 
 </html>

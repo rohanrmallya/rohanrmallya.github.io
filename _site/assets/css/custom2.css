@@ -1,0 +1,154 @@
+:root {
+    --dark: #363636;
+    --light: #474747;
+    --lightest: #A8A7A7;
+    --highlight: #E8175D;
+    --bg: #fff;
+
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--light);
+    padding: 0;
+}
+
+a:link{
+    color: var(--highlight);
+}
+
+a:visited{
+    color: var(--highlight);
+
+}
+
+a:hover{
+    color: rgb(250, 206, 206);
+
+}
+
+.full-content {
+    height: 100%;
+    min-height: 100%;
+}
+
+.content-90{
+    height:90%;
+    width:100%;
+}
+
+.content-10{
+    height:10%;
+}
+#nav {
+    background-color: var(--dark);
+    color: var(--highlight);
+}
+
+#nav-link {
+    color: var(--highlight);
+}
+
+/* Credits: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color/42587673
+https://www.codeply.com/go/4FdZGlPMNV
+ */
+.custom-toggler.navbar-toggler {
+    border-color: var(--highlight);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232,23,93)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#typed-name {
+    font-size: 3vw;
+    color: var(--lightest);
+}
+
+#type-name {
+    font-size: 3vw;
+    color: var(--highlight);
+}
+
+#i-am-a {
+    font-size: 1vw;
+    color: var(--highlight);
+}
+
+#typed-sub {
+    font-size: 2vw;
+    color: var(--lightest);
+}
+
+
+/* Contact */
+
+#contact{
+    background-color: var(--dark);
+    color:var(--highlight);
+    margin:0;
+    padding:0;
+}
+
+#buttons-row-container{
+    height:100%;
+
+}
+
+#ctnt-button{
+    font-size:2.2vw;
+}
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+    #typed-name {
+        font-size: 6vw;
+    }
+
+    #type-name {
+        font-size: 6vw;
+    }
+
+    #typed-sub {font-size: 3vw;}
+
+    #ctnt-button{
+        font-size:3vw;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    #typed-name {
+        font-size: 6vw;
+    }
+
+    #type-name {
+        font-size: 6vw;
+    }
+
+    #typed-sub {font-size: 3vw;}
+    #ctnt-button{
+        font-size:3vw;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    #ctnt-button{
+        font-size:2.5vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
