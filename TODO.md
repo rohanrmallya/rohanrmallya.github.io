@@ -1,3 +1,4 @@
 # TODO
 
-* Last Div contact info breaks on responsiveness.
+* Make skills page responsive.
+  Skills overflows into implementation's container when scaled.
