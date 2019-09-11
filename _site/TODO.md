@@ -1,4 +1,5 @@
 # TODO
 
-* Make skills page responsive.
-  Skills overflows into implementation's container when scaled.
+* Static Nav Bar
+* Make Nav Bar a little bigger
+* Add content dividers under heading
