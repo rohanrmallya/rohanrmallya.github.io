@@ -7,3 +7,7 @@
 * Added: Progress Circles from [here](https://www.cssscript.com/pure-css-circular-percentage-bar/) with little modification
 * Added: Implementation Description
 * Moved: Contact header to end of page
+
+## v2.0.1
+
+* Fixed: Responsiveness (Probably)
