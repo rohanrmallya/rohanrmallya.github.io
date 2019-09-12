@@ -11,3 +11,11 @@
 ## v2.0.1
 
 * Fixed: Responsiveness (Probably)
+
+## v2.0.2
+
+* Added: Social Media Icons in landing page
+* Added: Currently Working tech on landing page
+* Added: Dividers between page headings
+* Modified: Brand Name replaced with Social Media Icons in navbar
+* Modified: Navbar is now in fixed position
