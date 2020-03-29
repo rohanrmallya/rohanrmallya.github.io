@@ -35,9 +35,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto ">
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" id="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li> -->
+                
                 <li class="nav-item">
                     <a class="nav-link" id="nav-link" href="#skills">Skills</a>
                 </li>
@@ -49,11 +47,6 @@
                 </li>
             </ul>
 
-            <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a class="navbar-brand" href="#">Rohan Mallya</a></li>
-
-            </ul> -->
-
 
 
         </div>
@@ -64,16 +57,7 @@
         <div class="full-content container">
 
             <div class="row full-content align-items-center">
-                <!-- <div id="typed-name-text">
-                    <p>Hi, I am <span id="type-name">Rohan <strong>Mallya.</strong></span>
-                        This is a major WIP. But if you have something interesting we can work on,
-                            my contact details are below
-                        </span>
-
-                    </p>
-
-                </div> -->
-                <!-- <span id="typed-pre-name"></span> -->
+                
                 <span id="typed-name"></span>
                 <span id="i-am-a"></span>
 
@@ -82,24 +66,7 @@
 
         </div>
 
-        <!-- <div class="content-10" id="contact">
-            <div class="row align-items-center" id="buttons-row-container">
-                <div id="ctnt-button" class="col-sm"><i class="fa fa-phone" aria-hidden="true"></i>
-
-                    +917892197734</div>
-                <div id="ctnt-button" class="col-sm"><i class="fa fa-envelope" aria-hidden="true"></i>
-
-                    bangalorerohan@gmail.com</div>
-                <div id="ctnt-button" class="col-sm"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                    <a id="landing-a" href="https://www.about.me/rohanmallya">
-
-
-                        about.me</a>
-                </div>
-            </div>
-
-        </div> -->
-
+     
     </div>
 
     <div class="full-content" id="skills">
@@ -287,100 +254,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
-    <script>
-        var typed = new Typed('#typed-name', {
-            // stringsElement: '#typed-name-text',
-            strings: [
-                'Hi, I am <span id="type-name"><strong>Rohan Mallya.</strong></span><br>'
-            ],
-            onComplete: function () {
-                document.querySelector('.typed-cursor').style.display = "none";
-                callTyped();
-            }
-        });
-
-        function callTyped() {
-            console.log("CALLIED")
-            var iAmA = document.createElement('span');
-            iAmA.setAttribute('id', 'i-am-a');
-            document.querySelector("#typed-name").appendChild(iAmA);
-            var typed2 = new Typed("#i-am-a", {
-                strings: [
-                    '<span id="typed-sub">I\'m a <span id="type-sub-highlight">software developer.</span>^500 Love designing, building and debugging anything and everything!.^500</span><br>'
-                ],
-                typeSpeeed: 300,
-                onComplete: function () {
-                    document.querySelector('.typed-cursor').style.display = "none";
-
-                    loadTalkToMeAbout()
-                }
-
-            });
-
-        }
-
-        function loadTalkToMeAbout() {
-            var ttm = document.createElement('span');
-            ttm.setAttribute('id', 'ttm');
-            document.querySelector('#i-am-a').appendChild(ttm);
-            var typed = new Typed("#ttm", {
-                strings: [
-                    '<span id="typed-sub">Currently tinkering with: ^500</span>'
-                ],
-                typeSpeeed: 0,
-                backSpeed: 0,
-                onComplete: function () {
-                    document.querySelector('.typed-cursor').style.display = "none";
-
-                    loadCurrentlyTinkeringWith();
-                }
-
-            });
-        }
-
-        function makeTech(str) {
-            return '<span id="type-sub-highlight">' + str + '</span>^500'
-        }
-
-        function loadCurrentlyTinkeringWith() {
-            var current = document.createElement('span');
-            current.setAttribute('id', 'current');
-            document.querySelector("#ttm").appendChild(current);
-            var typed = new Typed("#current", {
-                strings: [
-                    makeTech('docker'),
-                    makeTech('microservices architecture'),
-                    makeTech('spring boot'),
-                    makeTech('EDB/Postgres')
-                ],
-                typeSpeeed: 0,
-                backSpeed: 10,
-                loop: true
-
-            });
-
-        }
-
-        function callTyped2() {
-            console.log("CALLIED")
-            var iAmA = document.createElement('span');
-            iAmA.setAttribute('id', 'i-am-a');
-            document.querySelector("#typed-name").appendChild(iAmA);
-            var typed2 = new Typed("#i-am-a", {
-                strings: ['think', 'read', 'design',
-                    ' code', 'implement'
-                ],
-                smartBackspace: true,
-                loop: true,
-                typeSpeeed: 0,
-                backSpeed: 0
-            })
-        }
-
-        // var typed = new Typed('#typed-name', {
-        //     stringsElement: '#typed-name-text'
-        // });
-    </script>
+    <script src="assets/js/typed_settings.js"></script>
 
 </body>
 

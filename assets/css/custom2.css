@@ -132,12 +132,12 @@ https://www.codeply.com/go/4FdZGlPMNV
 }
 
 #typed-sub {
-    font-size: 2vw;
+    font-size: 1.75vw;
     color: var(--lightest);
 }
 
 #type-sub-highlight{
-    font-size: 2vw;
+    font-size: 1.75vw;
     color: var(--highlight);
 }
 
@@ -193,9 +193,9 @@ https://www.codeply.com/go/4FdZGlPMNV
         font-size: 6vw;
     }
 
-    #typed-sub {font-size: 3vw;}
+    #typed-sub {font-size: 4vw;}
 
-    #type-sub-highlight{font-size:3vw;}
+    #type-sub-highlight{font-size:4vw;}
 
     #ctnt-button{
         font-size:3vw;
@@ -222,8 +222,8 @@ https://www.codeply.com/go/4FdZGlPMNV
         font-size: 6vw;
     }
 
-    #typed-sub {font-size: 3vw;}
-    #type-sub-highlight{font-size:3vw;}
+    #typed-sub {font-size: 2vw;}
+    #type-sub-highlight{font-size:2vw;}
 
     #ctnt-button{
         font-size:3vw;
@@ -297,7 +297,7 @@ https://www.codeply.com/go/4FdZGlPMNV
     }
 
     #typed-sub {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
         color: var(--lightest);
     }
     
