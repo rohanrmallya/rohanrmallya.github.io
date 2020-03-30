@@ -17,7 +17,6 @@ var typed = new Typed('#typed-name', {
 });
 
 function callTyped() {
-    console.log("CALLIED")
     var iAmA = document.createElement('span');
     iAmA.setAttribute('id', 'i-am-a');
     document.querySelector("#typed-name").appendChild(iAmA);
