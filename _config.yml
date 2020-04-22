@@ -1,4 +1,4 @@
-title: Blog Rohan Mallya.
+title: roBlog
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,12 +11,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Rohan Mallya # add your name
 author-img: my.jpg # add your photo
-about-author: 'I should probably write about who I am here. But I am not going to. 
-              Because, #myblog. This blog is a very informal translation of all the formal thoughts that I have. 
-              Most of the thoughts I have are jokes. But, some are interesting. Here they are. 
-              If the thoughts mentioned here are funny, do let me know. ;) 
-              Also, might use this blog as a human logger to log everything I have learned (whenever I do learn it) because 
-              again #myblog.'
+about-author: 'Product Developer 🚀.
+              '
                # add description
 # social-twitter: # add your Twitter handle
 social-facebook: notrohanmallya # add your Facebook handle
@@ -34,6 +30,6 @@ plugins:
   - jemoji
 
 paginate: 8
-paginate_path: "/blog/page/:num"
+paginate_path: "/all/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
