@@ -1,0 +1,40 @@
+---
+layout: post
+title: My First Pull Request!
+date: 2020-04-27 00:00:00 +0530
+description: An Application idea to re-invent news consumption in order to lessen the bias # Add post description (optional)
+#img: idea.jpg # Add image post (optional)
+tags: [achievements] # add tag
+---
+
+## 🔥 Intro
+
+4+ years ago I created my first, actual github project with an intention to keep my source code safe.
+I had always wanted to make contribution to open source, but all the repositories I explored were huge.
+To be honest, I was scared of big code. I did not step-in and take up the challenge then, but now i did.
+Yes, it took so many years. But I did, and this blog post is a small celebration for that step. :D
+
+## 🔥 What was it?
+
+During the CoViD-19 crisis, a lot of the engineers came forward to build wonderful APIs, Dashboards, Monitoring Tools, etc to help keep the public up to date wby providing accurate information. An API was developed by [@amodm](https://github.com/amondm) that had routes to fetch data from official and unofficial sources. An interesting post would be to elaborate on these *unofficial* sources because this was a community-driven Google Sheets that had volunteers keeping a track of every information they could get from official sources to create a patient database to keep track of the count, source, etc. But, I digress.
+
+So, the unofficial sources in the API would query data from this community maintained Google Sheet and standardize the data.
+In the patient database, it was seen that some of the patients' gender was unknown and the gender column was left blank.
+The API tagged such patients as female.
+
+## 🔥 Raising a Github issue
+
+I created the issue [#28](https://github.com/amodm/api-covid19-in/issues/28#issue-595631799) highlighting the same.
+
+![issue](/assets/img/first-pr/issue.png)
+
+## 🔥 Creating a pull request
+
+Added the one-line change and created the first PR [#29](https://github.com/amodm/api-covid19-in/pull/29)!
+
+![issue](/assets/img/first-pr/pr.png)
+
+
+Bye. 🚀
+
+TUD!😇
